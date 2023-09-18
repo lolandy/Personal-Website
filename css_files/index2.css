@@ -1,0 +1,268 @@
+body{
+    color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+}
+
+#stylebutton{
+    position: fixed;
+    right: 1%;
+    top: 1%;
+    border: none;
+    background-color: white;
+    z-index: 2;
+}
+
+#topnav{
+    color: black;
+    display: none;
+    flex-direction: column;
+    width: 10%;
+    margin: 0%;
+    position: fixed;
+    right: 0%;
+    top: 5%;
+    list-style-type: none;
+    padding: 0%;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+#topnav li{
+    text-align: center;
+    display: block;
+    padding: 20px 20px;
+    background-color:white;
+    z-index: 2;
+}
+
+#topnav a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#topnav a:visited{
+    color: black;
+}
+
+#menu{
+    background-color: white;
+    position: fixed;
+    right: 65px;
+    top: 7px;
+    border: none;
+    font-weight: bold;
+    font-size: larger;
+    z-index: 2;
+}
+
+#bigName{
+    text-align: center;
+    letter-spacing: 40px;
+    overflow: auto;
+}
+
+#bigNameLink{
+    color: black;
+    background-color: white;
+    padding: 1% 0% 1% 0%;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    right: 50%;
+    transform: translate(50%);
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 300px;
+    z-index: 1;
+}
+
+#bigName a:visited{
+    color: black;
+}
+
+@keyframes shrink{
+    100%{font-size: 30px;}
+}
+
+@keyframes inlarge{
+    100%{font-size: 300px;}
+}
+
+@keyframes marginUp{
+    100%{margin-top: 4%;}
+}
+
+@keyframes marginDown{
+    100%{margin-top: 25%;}
+}
+
+#biography{
+    width: 90%;
+    margin-top: 25%;
+    margin: 25% 5% 0% 5%;
+    background-color: hsl(0, 0%, 15%);
+    overflow: hidden;
+}
+
+#biography .left_col{
+    box-sizing: border-box;
+    position: absolute;
+    width: 90%;
+    padding: 15% 10% 0% 10%;
+}
+
+#myname{
+    width: 30%;
+    float: left;
+    font-size: 50px;
+    margin: 0%;
+}
+
+#biography .right_col{
+    padding: 4% 0% 0% 2%;
+    text-align: center;
+    width: 100%;
+    z-index: -1;
+}
+
+#about_me{
+    font-size: 20px;
+    float: right;
+    display: block;
+    width: 30%;
+    margin: 0%;
+    text-align: center;
+}
+
+#about_me a{
+    color: whitesmoke;
+}
+
+#about_me a:visited{
+    color: whitesmoke;
+}
+
+#portrait{
+    height: 50%;
+    width: 50%;
+    border-radius: 5%;
+}
+
+#my_background{
+    width: 44%;
+    float: left;
+    background-image: url(../img/texas.png);
+    background-size: 50%, 50%;
+    background-repeat: no-repeat;
+    background-position: 90% 70%;
+    background-color: blanchedalmond;
+    color: black;
+    box-sizing: border-box;
+    margin: 2% 1% 0% 5%;
+    text-align: center;
+    padding: 2%;
+    height: 550px;
+}
+
+#background_para{
+    width: 50%;
+}
+
+#background_para p{
+    font-size: 20px;
+    margin: 0%
+}
+
+#background_para h1{
+    margin: 0%;
+}
+
+#texas_img{
+    display: none;
+}
+
+#my_values{
+    text-align: center;
+    box-sizing: border-box;
+    color: black;
+    background-color: blanchedalmond;
+    margin: 2% 5% 0% 1%;
+    width: 44%;
+    height: 550px;
+    padding: 1%;
+    float: left;
+}
+
+#values_table{
+    border-collapse: separate;
+    border-spacing: 5px;
+    font-size: 20px;
+    table-layout: fixed;
+    width: 100%;
+    
+}
+
+.td_header{
+    margin-top: 0%;
+}
+
+#value_td1{
+    padding: 2%;
+    width: 5%;
+    border: 4px solid #c5c6d0;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+#value_td2{
+    padding: 2%;
+    width: 5%;
+    border: 4px solid #adadc9;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+#value_td3{
+    padding: 2%;
+    width: 5%;
+    border: 4px solid #808080;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+#myInfo div{
+    background-color: blanchedalmond;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#contact_me{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 15%);
+    width: 100%;
+    margin-top: 2%;
+    padding: 1%;
+}
+
+#contact_me p{
+    font-size: 20px;
+    margin: 0%;
+}
+
+.externalLink{
+    color: black;
+}
+
+.externalLink:visited{
+    color: black;
+}

@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+#topnav{
+    width: 100%;
+    margin: 0%;
+    position: fixed;
+    list-style-type: none;
+    padding: 0%;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    opacity: 98%;
+}
+
+#topnav li{
+    text-align: center;
+    display: block;
+    float: left;
+    padding: 10px 20px;
+    background-color:white;
+    width: 100px;
+}
+
+#topnav a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#topnav a:visited{
+    color: black;
+}
+
+#menu{
+    display: none;
+}
+
+#stylebutton{
+    position: fixed;
+    right: 1%;
+    top: 1%;
+    border: none;
+    background-color: white;
+}
+
+#serviceHeader{
+    display: none;
+}
+
+.external_link{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.external_link:visited{
+    color: cornflowerblue;
+}
+
+#big_event{
+    background-color: whitesmoke;
+    padding-top: 5%;
+    overflow: auto;
+    padding-bottom: 2%;
+}
+
+.left_col{
+    text-align: left;
+    box-sizing: border-box;
+    padding: 1% 4% 1% 4%;
+    width: 40%;
+    float: left;
+}
+
+.right_col{
+    box-sizing: border-box;
+    width: 60%;
+    float: left;
+    padding: 1%;
+    overflow: auto;
+}
+
+.serviceImg{
+    float: left;
+}
+
+#student_work{
+    background-color: azure;
+    margin: 1%;
+    padding-top: 2%;
+    overflow: auto;
+    padding-bottom: 2%;
+}
+
+#corps{
+    background-color:rgba(176, 196, 222, .3);
+    margin: 1%;
+    padding-top: 2%;
+    overflow: auto;
+    padding-bottom: 2%;
+}

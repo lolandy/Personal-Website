@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="js_files/technical.js"></script>
+    <link id="technicalStyle" rel="stylesheet" href="css_files/technical.css">
+    <link rel="icon" type="image/x-con" href="img/icon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<ul id="topnav">
+    <li><a href="index.html"><b>[ac]</b></a></li>
+    <li><a href="technical.html">Projects</a></li>
+    <li><a href="qualifications.html">My Skillset</a></li>
+    <li><a href="service.html">Service</a></li>
+    <li><a href="ai.html">More</a></li>
+</ul>
+
+<button id="menu" onclick="openMenu()">&#8801</button>
+<button id="stylebutton" onclick="changeStyle()"><img src="img/stylechange.png" alt="" height="20px" width="20px"></button>
+
+<div id="projHeader">PROJECTS</div>
+
+<div id="projContainer">
+<div id="project1">
+    <div class="left_col">
+        <h1 class="proj_title">Reinforcement <br> Learning</h1>
+        <!-- <p id="bellman"><i>V(s) = max<sub>a</sub>(R(s,a) + &gamma;V(s'))</i></p> -->
+        <p class="proj_desc">Implemented using Tensorflow and Keras. <br> <img src="img/tf_logo.png" width="12%" alt=""></p>
+        <p class="proj_desc">Optimized an agent's actions in a 2d environment using the Q-learning policy. 
+        The environment consists of a grid of sixteen squares which contain holes and a reward in the bottom right corner.
+        Each time the agent reaches the reward, the Q-function is updated until it converges. 
+        </p>
+    </div>
+    <div class="right_col">
+        <img id="proj1Img" src="img/gymnasium.gif" alt="" width="450px" height="450px">
+        <p class="projLink">Courtesy of <a href="https://gymnasium.farama.org/" target="_blank"> OpenAI</a></p>
+    </div>
+</div>
+
+<div id="project2">
+    <div class="left_col">
+        <h1 class="proj_title">CPU Architechture <br> y86 Instruction Set</h1>
+        <p class="proj_desc">This was the final project for the class <i>Computer Organization</i> and I worked with 2 teammates.
+        We designed the components for a sequencial CPU including: Fetch, Decode, Execute, Memory, and Write.
+        We tested the CPU with programs written in binary and it successfully ran the bubble sort algorithm.
+
+        </p>
+    </div>
+    <div class="right_col">
+        <img id="proj2Img" src="img/circuit.png" alt="" width="450px" height="450px">
+        <p class="projLink">Simulated using <a href="https://github.com/logisim-evolution/logisim-evolution" target="_blank"> Logism</a></p>
+    </div>
+</div>
+</div>
+
+<div id="future_proj">
+    <div id="future_proj_title"><h1>Future Projects</h1></div>
+    <div class="left_col">
+        <h1 class="proj_title">Snake Game</h1>
+        <p class="proj_desc">A project I'm planning to complete is training a model to play the game Snake.
+        Compared to my previous project, Snake has a much larger environment and possible number of states.
+        The Q-learning model will take too long to train and is not suited for this case.
+        Instead, I will employ the Actor Critic method which is effective in large continuous spaces.
+        </p>
+    </div>
+    <div class="right_col">
+        <img src="img/snake.png" alt="" width="700px" height="450px">
+        <p class="projLink"><a href="https://www.youtube.com/watch?v=i0Pkgtbh1xw" target="_blank"> Learn More</a></p>
+    </div>
+</div>
+
+<div class="github_link"><a class="projLink" href="https://github.com/lol-andy1" target="_blank">Checkout the source code on my Github!</a></div>
+
+
+</body>
+</html>

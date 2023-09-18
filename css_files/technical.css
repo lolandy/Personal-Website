@@ -1,0 +1,131 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+#topnav{
+    width: 100%;
+    margin: 0%;
+    position: fixed;
+    list-style-type: none;
+    padding: 0%;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    opacity: 98%;
+}
+
+#topnav li{
+    text-align: center;
+    display: block;
+    float: left;
+    padding: 10px 20px;
+    background-color:white;
+    width: 100px;
+}
+
+#topnav a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#topnav a:visited{
+    color: black;
+}
+
+#menu{
+    display: none;
+}
+
+#stylebutton{
+    position: fixed;
+    right: 1%;
+    top: 1%;
+    border: none;
+    background-color: white;
+}
+
+#projHeader{
+    display: none;
+}
+
+.github_link{
+    margin-top: 1%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: mintcream;
+}
+
+#project1{
+    box-sizing: border-box;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color:whitesmoke;
+    overflow: auto;
+}
+
+#project2{
+    box-sizing: border-box;
+    margin-top: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: azure;
+    overflow: auto;
+}
+
+.left_col{
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 15%;
+    padding-top: 2%;
+    width: 50%;
+    float: left;
+}
+
+.right_col{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding-left: 3%;
+}
+
+.proj_title{
+    font-size: 40px;
+    padding-bottom: 0%;
+}
+
+#bellman{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    opacity: 50%;
+}
+
+.proj_desc{
+    font-size: 20px;
+}
+
+#future_proj{
+    box-sizing: border-box;
+    margin-top: 1%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    background-color: gainsboro;
+    overflow: auto;
+}
+
+#future_proj:first-child{
+    text-align: center;
+    padding-bottom: 2;
+}
+
+#future_proj_title{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.projLink a:visited{
+    color: black;
+}

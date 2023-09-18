@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="js_files/ai.js"></script>
+    <link id="aiStyle" rel="stylesheet" href="css_files/ai.css">
+    <link rel="icon" type="image/x-icon" href="img/icon.ico">
+    <title>Andy Callahan</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<nav>
+    <ul id="topnav">
+        <li><a href="index.html" title="Home"><b>[ac]</b></a></li>
+        <li><a href="technical.html">Projects</a></li>
+        <li><a href="qualifications.html">My Skillset</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="ai.html">More</a></li>
+    </ul>
+</nav>
+
+<button id="menu" onclick="openMenu()">&#8801</button>
+<button id="stylebutton" onclick="changeStyle()"><img src="img/stylechange.png" alt="" height="20px" width="20px"></button>
+
+<div id="header">
+    <p>Page Created with ChatGPT</p>
+</div>
+
+<div id="answer">
+    <h2>Tell me about DeepMind's machine learning work on atari games.</h2>
+    <p>DeepMind, a British artificial intelligence company acquired by Alphabet Inc. (Google's parent company), 
+    gained widespread recognition and acclaim for its work on using machine learning to play Atari 2600 video games. 
+    This project, known as "Deep Q-Network" (DQN), was a significant milestone in the field of reinforcement learning 
+    and helped showcase the potential of deep learning in solving complex real-world problems.
+    <br>Here's an overview of DeepMind's work on Atari games:</p>
+
+    <p>Deep Q-Network (DQN): DQN is a neural network-based algorithm that combines deep learning with reinforcement learning.
+    It was designed to learn to play a wide range of Atari 2600 games directly from raw pixel inputs and score-based rewards.</p>
+
+    <p>Experience Replay: One of the key innovations in DQN was the introduction of experience replay. 
+    Instead of learning from consecutive experiences, DQN stores a large replay memory of past experiences 
+    (state, action, reward, next state) and samples randomly from this memory during training. 
+    This technique stabilizes and improves learning by reducing the correlations between consecutive experiences.</p>
+
+    <p>Target Network: DQN employs two separate neural networks: the primary Q-network and a target Q-network. 
+    The target network helps stabilize the Q-value estimates during training. 
+    The target network's parameters are updated periodically with the parameters of the primary network.</p>
+
+    <p>Q-Learning: DQN uses Q-learning, a well-established reinforcement learning algorithm, 
+    to estimate the expected cumulative reward for taking a particular action in a given state. 
+    The Q-network is trained to approximate the Q-values for each action in each state.</p>
+
+    <p>Neural Network Architecture: DeepMind used deep convolutional neural networks (CNNs) as the Q-network. 
+    These networks were capable of processing the raw pixel data from the game frames 
+    and learning to represent the state and action values.</p>
+
+    <p>Success on Atari Games: DeepMind's DQN demonstrated remarkable performance across a variety of Atari 2600 games. 
+    It often achieved or exceeded human-level performance on games like Breakout, Pong, Space Invaders, and more.</p>
+
+    <p>Generalization: One of the remarkable aspects of DQN was its ability to generalize its learning across different games 
+    without game-specific modifications. 
+    The same architecture and algorithm could be applied to various Atari games with minimal changes.
+    DeepMind's work on DQN and the Atari games environment demonstrated the potential of deep reinforcement learning 
+    to tackle complex tasks with high-dimensional inputs. 
+    It also paved the way for subsequent research in deep reinforcement learning 
+    and opened up opportunities for applying similar techniques to real-world problems, 
+    including robotics, autonomous systems, and healthcare.</p>
+</div>
+
+</body>
+</html>

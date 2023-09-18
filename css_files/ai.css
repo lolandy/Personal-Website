@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+#topnav{
+    width: 100%;
+    margin: 0%;
+    position: fixed;
+    list-style-type: none;
+    padding: 0%;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    opacity: 98%;
+    z-index: 1;
+}
+
+#topnav li{
+    text-align: center;
+    display: block;
+    float: left;
+    padding: 10px 20px;
+    background-color:white;
+    width: 100px;
+}
+
+#topnav a{
+    color:black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#topnav a:visited{
+    color: black;
+}
+
+#menu{
+    display: none;
+}
+
+#stylebutton{
+    position: fixed;
+    right: 1%;
+    top: 1%;
+    border: none;
+    background-color: white;
+    z-index: 1;
+}
+
+#header{
+    background-color: mintcream;
+    text-align: center;
+    padding: 4% 0% 1% 0%;
+    color: black;
+}
+
+#header p{
+    margin: 0%;
+}
+
+#answer{
+    font-size: 20px;
+    text-align: center;
+    padding: 1% 15% 2% 15%;
+    background-color: rgba(176, 196, 222, .3);
+}
+
+#answer p{
+    text-align: left;
+    line-height: 120%;
+}
